@@ -1,0 +1,34 @@
+{
+  "name": "strapi-cloudways-mysql",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@retikolo/drag-drop-content-types": "^1.0.4",
+    "@strapi/plugin-i18n": "4.4.0",
+    "@strapi/plugin-users-permissions": "4.4.0",
+    "@strapi/provider-upload-cloudinary": "^4.4.0",
+    "@strapi/strapi": "4.4.0",
+    "mysql": "2.18.1",
+    "strapi-plugin-duplicate-button": "^1.0.4",
+    "strapi-plugin-menus": "^1.0.2",
+    "strapi-plugin-vercel-deploy": "^1.3.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "e9b0ca6b-be52-44d6-a54c-437ee7ea0142"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
